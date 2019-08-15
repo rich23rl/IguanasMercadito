@@ -20,9 +20,7 @@ public class Menu { public int menu() {
         }
     }
     return opcion;
-
 }
-
     public int MenuDeClientes() {
         System.out.println("");
         Scanner Sc = new Scanner(System.in);

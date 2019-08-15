@@ -28,6 +28,7 @@ public class Producto {
     public void setCantiCantidadDeProducto(int CantidadDeProducto){
         this.CantidadDeProducto = CantidadDeProducto;
     }
+
     public float getPrecioDeProducto() {
         return PrecioDeProducto;
     }

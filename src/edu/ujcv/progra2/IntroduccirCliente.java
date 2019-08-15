@@ -22,7 +22,6 @@ public class IntroduccirCliente {
         }
     }
 
-
     public void RemoverCliente() {
         for (int i = 0; i < pda.getSize(); i++) {
             System.out.println(pda.getItem(i));
@@ -30,7 +29,6 @@ public class IntroduccirCliente {
         System.out.println("numero a borrar en lista de clientes");
         Integer n = Sc.nextInt();
         pda.remove(n+1);
-
     }
 
     public void ModificarCliente(){

@@ -4,13 +4,10 @@ public class Cliente {
     private String NombreDeCliente;
     private float NumeroDeCuenta;
 
-
-
     public Cliente(String NombreDeCliente, float NumeroDeCuenta) {
         this.NombreDeCliente = NombreDeCliente;
         this.NumeroDeCuenta = NumeroDeCuenta;
     }
-
 
     public String getNombreDeCliente() {
         return NombreDeCliente;
