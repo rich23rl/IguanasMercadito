@@ -7,10 +7,10 @@ public class IntroduccirProducto {
     private DymArray<Producto> pda = new DymArray<>();
 
     public void IntroProducto() {
-        System.out.println("cuantos productos quiere introducir? ");
+        System.out.println("Cuantos productos quiere introducir: ");
         int h = Sc.nextInt();
         for (int i = 0; i < h; i++) {
-            System.out.println("introduzca el producto: ");
+            System.out.println("Introduzca el producto: ");
             String setNombreDeProducto = Sc.next();
             System.out.println("Introduzca la cantidad del producto: ");
             Integer setCantidadDeProducto = Sc.nextInt();
@@ -38,7 +38,7 @@ public class IntroduccirProducto {
         for (int i = 0; i < pda.getSize(); i++) {
             System.out.println(pda.getItem(i));
         }
-        System.out.println("Que producto de la lista desea modificar ");
+        System.out.println("Que producto de la lista desea modificar: ");
         int n= Sc.nextInt();
         pda.remove(n-1);
 
@@ -47,7 +47,7 @@ public class IntroduccirProducto {
             String setNombreDeProducto = Sc.next();
             System.out.println("Introduzca la cantidad del producto: ");
             Integer setCantidadDeProducto = Sc.nextInt();
-            System.out.println("introduzca el precio");
+            System.out.println("Introduzca el precio: ");
             Integer setPrecioDeProducto = Sc.nextInt();
             pda.add(new Producto(setNombreDeProducto, setPrecioDeProducto,setCantidadDeProducto));
         }
