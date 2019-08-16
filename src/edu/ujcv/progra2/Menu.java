@@ -33,27 +33,17 @@ public class Menu { public int menu() {
         return opcion;
     }
     public int MenuDeProductos() {
-        System.out.println("");
-        System.out.println("1. AGREGAR PRODUCTOS ");
-        System.out.println("2. VER PRODUCTOS ");
-        System.out.println("3. ELIMINAR PRODUCTO ");
-        System.out.println("4. MODIFICAR PRODUCTO  ");
-        System.out.println("5. Salir");
+        System.out.println("Menu de Productos");
+        System.out.println("1.Agregar Productos \n2.Ver Producto \n3.Eliminar Producto \n4.Modificar Porducto \n5.SALIR");
         int opcion = 0;
         while ((opcion < 1) || (opcion > 6)) {
-            System.out.println("Favor Ingresar Una Opcion : ");
+            System.out.println("Ingresar Una Opcion : ");
             Scanner Sc = new Scanner(System.in);
             opcion = Sc.nextInt();
             if ((opcion < 1) || (opcion > 6)) {
                 System.out.println("Opcion No Invalida.");
             }
         }
-        return opcion;
-    }
-    public int MenuDeFactura(){
-        int opcion = 0;
-        double subTotal;
-        System.out.println("Menu");
         return opcion;
     }
 }
