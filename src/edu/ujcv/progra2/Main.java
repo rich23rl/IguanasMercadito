@@ -4,9 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class  Main {
-
     public static void main(String[] args) {
-        // write your code here
         float precio = 0;
         String nombre = null;
         Scanner Sc= new Scanner(System.in);
@@ -72,11 +70,16 @@ public class  Main {
                                     break;
                                 case 5:
                                 default:
-                                    System.out.println("Saliendo...");
+                                    System.out.println("Saliendo");
                             }
                         }
                     case 3:
+                        double SubTotal;
 
+                        break;
+                    case 4:
+                    default:
+                        System.out.println("Saliendo");
                 }
             }
         }

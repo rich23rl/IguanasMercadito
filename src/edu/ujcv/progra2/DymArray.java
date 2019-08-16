@@ -18,7 +18,6 @@ public class DymArray <T>implements Lista<T> {
         mItems = temp;
     }
 
-    @Override
     public void add(T data) {
         if(mSize >= mItems.length){
             grow();
@@ -27,12 +26,10 @@ public class DymArray <T>implements Lista<T> {
         mSize++;
     }
 
-    @Override
     public boolean isEmpty() {
         return false;
     }
 
-    @Override
     public T remove(int index) {
         if(index >= mSize)
             return null;
@@ -45,12 +42,10 @@ public class DymArray <T>implements Lista<T> {
         return retval;
     }
 
-    @Override
     public T getItem(int index) {
         return mItems[index];
     }
 
-    @Override
     public int getSize() {
         return mSize;
     }
