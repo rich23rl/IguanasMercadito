@@ -3,8 +3,6 @@ package edu.ujcv.progra2;
 import java.util.Scanner;
 
 public class Menu { public int menu() {
-    System.out.println("");
-    System.out.println("");
     System.out.println("========================MENU==========================");
     System.out.println("1. PRODUCTOS ");
     System.out.println("2. CLIENTES ");
@@ -24,7 +22,6 @@ public class Menu { public int menu() {
     public int MenuDeClientes() {
         System.out.println("");
         Scanner Sc = new Scanner(System.in);
-        System.out.println("");
         System.out.println("========================MENU==========================");
         System.out.println("==================MENU DE CLIENTES==============");
         System.out.println("1. AGREGAR CLIENTE ");
@@ -44,8 +41,6 @@ public class Menu { public int menu() {
         return opcion;
     }
     public int MenuDeProductos() {
-        System.out.println("");
-        System.out.println("");
         System.out.println("========================MENU==========================");
         System.out.println("1. AGREGAR PRODUCTOS ");
         System.out.println("2. VER PRODUCTOS ");

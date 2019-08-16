@@ -2,11 +2,11 @@ package edu.ujcv.progra2;
 
 public class Cliente {
     private String NombreDeCliente;
-    private float NumeroDeCuenta;
+    private int NumeroDeCodigo;
 
-    public Cliente(String NombreDeCliente, float NumeroDeCuenta) {
+    public Cliente(String NombreDeCliente, int NumeroDeCodig) {
         this.NombreDeCliente = NombreDeCliente;
-        this.NumeroDeCuenta = NumeroDeCuenta;
+        this.NumeroDeCodigo = NumeroDeCodigo;
     }
 
     public String getNombreDeCliente() {
@@ -14,19 +14,19 @@ public class Cliente {
     }
 
     public void setNombreDeCliente() {
-        this.NumeroDeCuenta = NumeroDeCuenta;
+        this.NumeroDeCodigo = NumeroDeCodigo;
     }
 
-    public float getNumeroDeCuenta() {
-        return NumeroDeCuenta;
+    public int getNumeroDeCodigo() {
+        return NumeroDeCodigo;
     }
 
-    public void setNumeroDeCuenta(float NumeroDeCuenta) {
-        this.NumeroDeCuenta = NumeroDeCuenta;
+    public void setNumeroDeCodigo(int NumeroDeCuenta) {
+        this.NumeroDeCodigo = NumeroDeCodigo;
     }
 
     @Override
     public String toString() {
-        return String.format("%s %f",NombreDeCliente,NumeroDeCuenta);
+        return String.format("%s %f",NombreDeCliente,NumeroDeCodigo);
     }
 }

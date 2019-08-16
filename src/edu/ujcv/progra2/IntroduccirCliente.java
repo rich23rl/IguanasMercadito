@@ -11,8 +11,8 @@ public class IntroduccirCliente {
         System.out.println("NOMBRE DEL CLIENTE DEL SUPERMERCADITO: ");
         String setNombreDeCliente = Sc.next();
         System.out.println("Ingrese codigo cliente");
-        int codigo = Sc.nextInt();
-        pda.add(new Cliente(setNombreDeCliente, codigo));
+        int NumeroDeCodigo = Sc.nextInt();
+        pda.add(new Cliente(setNombreDeCliente, NumeroDeCodigo));
     }
 
     public void ImpresionDeClientes() {
@@ -42,8 +42,8 @@ public class IntroduccirCliente {
         System.out.println("NOMBRE DEL CLIENTE DEL SUPERMERCADITO: ");
         String setNombreDeCliente = Sc.next();
         System.out.println("Ingrese codigo cliente");
-        int codigo = Sc.nextInt();
-        pda.add(new Cliente(setNombreDeCliente, codigo));
+        int NumeroDeCodigo = Sc.nextInt();
+        pda.add(new Cliente(setNombreDeCliente, NumeroDeCodigo));
     }
 
 }
