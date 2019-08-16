@@ -3,14 +3,11 @@ package edu.ujcv.progra2;
 import java.util.Scanner;
 
 public class Menu { public int menu() {
-    System.out.println("========================MENU==========================");
-    System.out.println("1. PRODUCTOS ");
-    System.out.println("2. CLIENTES ");
-    System.out.println("3. FACTURA ");
-    System.out.println("4. SALIR");
+    System.out.println("\t\tMenu de Mercadito");
+    System.out.println("1.Productos \n2.Clientes \n3.Factura \n4.SALIR");
     int opcion = 0;
     while ((opcion < 1) || (opcion > 5)) {
-        System.out.println("Favor Ingresar Una Opcion : ");
+        System.out.println("Ingresar Una Opcion: ");
         Scanner Sc = new Scanner(System.in);
         opcion = Sc.nextInt();
         if ((opcion < 1) || (opcion > 5)) {
@@ -22,16 +19,11 @@ public class Menu { public int menu() {
     public int MenuDeClientes() {
         System.out.println("");
         Scanner Sc = new Scanner(System.in);
-        System.out.println("MENU");
-        System.out.println("MENU DE CLIENTES");
-        System.out.println("1. AGREGAR CLIENTE ");
-        System.out.println("2. VER CLIENTE ");
-        System.out.println("3. ELIMINAR CLIENTE ");
-        System.out.println("4. MODIFICAR CLIENTE  ");
-        System.out.println("5. SALIR");
+        System.out.println("Menu de clientes");
+        System.out.println("1.Agregar Clientes \n2.Ver Clientes \n3.Eliminar Cliente \n4.Modificar cliente \n5.SALIR");
         int opcion = 0;
         while ((opcion < 1) || (opcion > 6)) {
-            System.out.println("Favor Ingresar Una Opcion : ");
+            System.out.println("Ingresar Una Opcion: ");
             Scanner dSc = new Scanner(System.in);
             opcion = Sc.nextInt();
             if ((opcion < 1) || (opcion > 6)) {
@@ -41,7 +33,7 @@ public class Menu { public int menu() {
         return opcion;
     }
     public int MenuDeProductos() {
-        System.out.println("MENU");
+        System.out.println("");
         System.out.println("1. AGREGAR PRODUCTOS ");
         System.out.println("2. VER PRODUCTOS ");
         System.out.println("3. ELIMINAR PRODUCTO ");

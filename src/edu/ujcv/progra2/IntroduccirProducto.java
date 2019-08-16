@@ -21,24 +21,24 @@ public class IntroduccirProducto {
     }
 
     public void ImpresionDeProducto() {
-        System.out.println("COMPRA DEL CLIENTE: ");
+        System.out.println("Compra del cliente: ");
         for (int i = 0; i < pda.getSize(); i++) {
             System.out.println(pda.getItem(i));
         }
     }
 
     public void RemoverProducto() {
-        System.out.println("que numero desea borrar de la lista de productos: ");
+        System.out.println("Que numero desea borrar de la lista de productos: ");
         int n= Sc.nextInt();
         pda.remove(n-1);
     }
 
     public void ModificarProducto(){
-        System.out.println("COMPRA DEL CLIENTE: ");
+        System.out.println("Compra del cliente: ");
         for (int i = 0; i < pda.getSize(); i++) {
             System.out.println(pda.getItem(i));
         }
-        System.out.println("QUE PRODUCTO DE LA LISTA DESEA MODIFICAR ");
+        System.out.println("Que producto de la lista desea modificar ");
         int n= Sc.nextInt();
         pda.remove(n-1);
 

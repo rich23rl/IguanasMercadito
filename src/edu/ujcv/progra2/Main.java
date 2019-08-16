@@ -49,7 +49,7 @@ public class  Main {
                                     break;
                                 case 5:
                                 default:
-                                    System.out.println("saliendo de menu de productos");
+                                    System.out.println("saliendo al menu de productos");
                             }
                         }
                     case 2:
