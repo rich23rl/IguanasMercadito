@@ -8,15 +8,15 @@ public class IntroduccirCliente {
 
     public void IntroducirCliente() {
 
-        System.out.println("NOMBRE DEL CLIENTE DEL SUPERMERCADITO: ");
+        System.out.println("Nonmbre del Cliente del Mercadito: ");
         String setNombreDeCliente = Sc.next();
-        System.out.println("Ingrese codigo cliente");
+        System.out.println("Ingrese codigo cliente: ");
         int NumeroDeCodigo = Sc.nextInt();
         pda.add(new Cliente(setNombreDeCliente, NumeroDeCodigo));
     }
 
     public void ImpresionDeClientes() {
-        System.out.println("NOMBRE DEL CLIENTE con codigo: ");
+        System.out.println("Nonmbre del Cliente con codigo: ");
         for (int i = 0; i < pda.getSize(); i++) {
             System.out.println(pda.getItem(i));
         }
@@ -26,22 +26,22 @@ public class IntroduccirCliente {
         for (int i = 0; i < pda.getSize(); i++) {
             System.out.println(pda.getItem(i));
         }
-        System.out.println("numero a borrar en lista de clientes");
+        System.out.println("Numero a borrar en lista de clientes: ");
         Integer n = Sc.nextInt();
         pda.remove(n+1);
     }
 
     public void ModificarCliente(){
-        System.out.println("COMPRA DEL CLIENTE: ");
+        System.out.println("Compra del Cliente: ");
         for (int i = 0; i < pda.getSize(); i++) {
             System.out.println(pda.getItem(i));
         }
-        System.out.println("QUE CLIENTE DE LA LISTA DESEA MODIFICAR: (INGRESE UN NUMERO VALIDO EN LA LISTA DE CLIENTES!!) ");
+        System.out.println("Que Cliente de la lista desea modificar: ");
         int n= Sc.nextInt();
         pda.remove(n-1);
-        System.out.println("NOMBRE DEL CLIENTE DEL SUPERMERCADITO: ");
+        System.out.println("Nonmbre del Cliente del Mercadito: ");
         String setNombreDeCliente = Sc.next();
-        System.out.println("Ingrese codigo cliente");
+        System.out.println("Ingrese codigo cliente: ");
         int NumeroDeCodigo = Sc.nextInt();
         pda.add(new Cliente(setNombreDeCliente, NumeroDeCodigo));
     }
