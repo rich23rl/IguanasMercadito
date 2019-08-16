@@ -22,7 +22,7 @@ public class Menu { public int menu() {
     public int MenuDeClientes() {
         System.out.println("");
         Scanner Sc = new Scanner(System.in);
-        System.out.println("========================MENU==========================");
+        System.out.println("MENU");
         System.out.println("==================MENU DE CLIENTES==============");
         System.out.println("1. AGREGAR CLIENTE ");
         System.out.println("2. VER CLIENTE ");
@@ -41,7 +41,7 @@ public class Menu { public int menu() {
         return opcion;
     }
     public int MenuDeProductos() {
-        System.out.println("========================MENU==========================");
+        System.out.println("MENU");
         System.out.println("1. AGREGAR PRODUCTOS ");
         System.out.println("2. VER PRODUCTOS ");
         System.out.println("3. ELIMINAR PRODUCTO ");
