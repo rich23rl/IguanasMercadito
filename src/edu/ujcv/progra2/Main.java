@@ -74,8 +74,6 @@ public class  Main {
                             }
                         }
                     case 3:
-                        double SubTotal;
-
                         break;
                     case 4:
                     default:
